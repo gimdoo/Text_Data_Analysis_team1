@@ -1,7 +1,9 @@
 streamlit
+openai==1.57.0
+faiss-cpu
+numpy
 requests
-openai
-langchain
 langchain-community
 langchain-openai
-numpy
+langchain-core
+python-dotenv
