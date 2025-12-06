@@ -1,6 +1,6 @@
 streamlit==1.31.1
 
-faiss-cpu==1.7.4
+faiss-cpu
 
 openai==1.57.0
 
