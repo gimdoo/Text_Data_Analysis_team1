@@ -1,4 +1,4 @@
-#VSCode로 실행 가능한 파일입니다. Release에 있는 LawChat을 위한 데이터 파일에 있는 _documents.pkl과 _embeddings.pkl과 함께 실행시키면 됩니다.
+#VSCode로 실행 가능한 파일입니다. Release에 있는 Lawchatapp실행을 위한 데이터 파일에 있는 _documents.pkl과 _embeddings.pkl과 함께 실행시키면 됩니다.
 #.env파일은 개인정보를 위해 따로 올리지 않았습니다. 
 
 import streamlit as st
@@ -532,6 +532,7 @@ for msg in st.session_state.messages:
 
 # 채팅 카드 / 프레임 닫기
 st.markdown("</div></div></div></div>", unsafe_allow_html=True)
+
 
 
 
