@@ -1,3 +1,5 @@
+#streamlit cloud 와 연동을 위해 lawchatapp 코드를 변환시킨 코드 입니다.
+
 import streamlit as st
 import requests
 import json
@@ -554,3 +556,4 @@ for msg in st.session_state.messages:
             )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
