@@ -1,3 +1,6 @@
+#VSCode로 실행 가능한 파일입니다. Release에 있는 _documents.pkl과 _embeddings.pkl과 함께 실행시키면 됩니다.
+#.env파일은
+
 import streamlit as st
 import pickle
 import os
@@ -529,4 +532,5 @@ for msg in st.session_state.messages:
 
 # 채팅 카드 / 프레임 닫기
 st.markdown("</div></div></div></div>", unsafe_allow_html=True)
+
 
