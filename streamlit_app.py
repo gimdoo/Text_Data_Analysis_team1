@@ -1,4 +1,5 @@
 #streamlit cloud 와 연동을 위해 lawchatapp 코드를 변환시킨 코드 입니다.
+#Release에 있는 streamlit_app.py를 실행시키기 위한 데이터 파일을 사용했습니다.
 
 import streamlit as st
 import requests
@@ -556,4 +557,5 @@ for msg in st.session_state.messages:
             )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
