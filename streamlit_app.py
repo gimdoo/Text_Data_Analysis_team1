@@ -428,7 +428,7 @@ if "messages" not in st.session_state:
             "role": "ai",
             "type": "intro",
             "content": (
-                "안녕하세요, 계약서 이해 AI입니다.\n"
+                "안녕하세요, 계약서 도우미입니다.\n"
                 "궁금한 계약서 조항이나 키워드를 아래 입력창에 적어 주세요.\n"
                 '예: "근로시간 조항 설명해줘"'
             ),
@@ -488,7 +488,7 @@ st.markdown(
     <div class="menu-icon-bar"></div>
   </div>
   <div>
-    <div class="app-title">계약서 이해 AI</div>
+    <div class="app-title">계약서 도우미</div>
     <div class="app-subtitle">계약서 조항 검색 · 쉬운 설명 · 위험 요소 분석</div>
   </div>
 </div>
@@ -557,5 +557,6 @@ for msg in st.session_state.messages:
             )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
