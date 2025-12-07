@@ -518,7 +518,7 @@ for msg in st.session_state.messages:
   <div class="bot-card">
     <div class="bot-card-header">
       <div class="bot-card-avatar">🤖</div>
-      <div>계약서 이해 도우미</div>
+      <div>계약서 도우미</div>
     </div>
     <div class="bot-card-body">
       {body}
@@ -557,6 +557,7 @@ for msg in st.session_state.messages:
             )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 
