@@ -25,7 +25,7 @@ from langchain.chains import create_retrieval_chain
 # 0. Streamlit 기본 설정
 # --------------------------------------------------------------------------
 st.set_page_config(
-    page_title="계약서 이해 AI",
+    page_title="계약서 도우미",
     page_icon="📄",
     layout="wide",
 )
@@ -557,4 +557,5 @@ for msg in st.session_state.messages:
             )
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
